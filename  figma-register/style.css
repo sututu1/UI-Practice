@@ -87,3 +87,7 @@
     color: #5551ff;
   }
   
+  .page .center .item a:hover{
+      text-decoration:underline;
+  }
+  
