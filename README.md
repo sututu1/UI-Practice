@@ -1,6 +1,10 @@
 ## UI-Practice
-### figma-register // 注册界面
- 由标题,邮箱和密码两个部分组成
+### figma-register 
+* 注册界面和登录界面
+  
+### comment-carousel
+* 评论轮播图
 
-### figma-login //登录界面
- 由标题,邮箱和密码两个部分组成
+### menu-icon
+* 菜单图标
+
