@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>菜单图标</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="menu-icon" onclick="toggle()">
+      <span class="item line1"></span>
+      <span class="item line2"></span>
+      <span class="item line3"></span>
+    </div>
+  </body>
+  <script>
+    function toggle() {
+      document.querySelector(".menu-icon").classList.toggle("active");
+    }
+  </script>
+</html>
