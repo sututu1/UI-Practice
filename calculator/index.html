@@ -6,7 +6,8 @@
     <title>计算器</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="primary“ style="background-color: black;”>
+  <!-- <body class="primary“> -->
+    <body class="primary">
     <div class="calculator">
       <div class="calculation-formula">120 × 3 + 608 + 1080</div>
       <div class="result">2,048</div>
@@ -43,11 +44,12 @@
         <div class="item"><span>=</span></div>
       </div>
     </div>
+  
   </body>
   <script>
    function toggle(){
-   const src = document.querySelector(".moon").src="./img/sun.png";
-
+   const src = document.querySelector(".moon").src;
+   document.querySelector(".moon").src=src.endsWith("/img/sun.png") ? "./img/moon.png" : "./img/sun.png";
       document.body.classList.toggle('primary')
    }
   
